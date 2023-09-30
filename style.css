@@ -2,4 +2,62 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculadora-corpo{
+    background-color: #141414;
+    height: 500px;
+    width: 300px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tela{
+    height: 130px;
+    width: 280px;
+    background-color: rgb(212, 212, 212);
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.botoes{
+    height: calc(90%-130px);
+    width: 300px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.botoes button{
+    height: 55px;
+    width: 55px;
+    margin: 6px;
+    border: none;
+    border-radius: 500px;
+    font-size: 20px;
+    cursor: pointer;
+}
+button:hover{
+    opacity: 50%;
+}
+.nums, .dot{
+    background-color: #575252;
+    color: whitesmoke;
+}
+.signals {
+    background-color: #ec9039;
+    color: whitesmoke;
+}
+.clear, .negative-positive, .percentage{
+    background-color: rgb(192, 192, 192);
+}
+#zero{
+    width: 126px;
+    border-radius: 50px;
 }
