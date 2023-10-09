@@ -11,7 +11,7 @@ Uma calculadora básica construída utilizando HTML, CSS e JavaScript. Realiza c
 
 ## Teste o projeto 💡
 
-Você pode testar o projeto <a src="https://dhomimonteiro.github.io/Calculator-JS/">aqui</a>.
+Você pode testar o projeto <a href="https://dhomimonteiro.github.io/Calculator-JS/">aqui</a>.
 
 ## Licença 📄
 
