@@ -25,6 +25,12 @@ body{
     background-color: rgb(212, 212, 212);
     border-radius: 10px;
     margin-top: 15px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding: 10px;
+    font-size: 50px;
+    text-wrap: wrap;
 }
 .botoes{
     height: calc(90%-130px);
@@ -50,12 +56,13 @@ button:hover{
     background-color: #575252;
     color: whitesmoke;
 }
-.signals {
+.signals, .equal {
     background-color: #ec9039;
     color: whitesmoke;
 }
 .clear, .negative-positive, .percentage{
     background-color: rgb(192, 192, 192);
+    color: black;
 }
 #zero{
     width: 126px;
